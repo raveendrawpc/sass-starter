@@ -1,0 +1,13 @@
+@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$base-font-family;
+  color: variables.$primary-color;
+}
+
+.container {
+  @include mixins.clearfix;
+  margin: 0 auto;
+  max-width: 1200px;
+}
