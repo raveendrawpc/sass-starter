@@ -5,7 +5,7 @@ A basic setup to start using Sass with modern @use syntax.
 ## Usage
 
 1. Install dependencies: `pnpm install`
-2. Watch for Sass changes: `pnpm run sass:watch`
+2. Watch for Sass changes: `pnpm run start`
 
 ## Structure
 - Use `@use` to load partials in your main SCSS file
